@@ -16,7 +16,9 @@ let emails = ['ginobuonvino@gmail.com', 'pincopallo@hotmail.it', 'gianboolean@li
 
 let userEmail = prompt('Scrivi qui la tua email:');
 
-
+for (i = 0; i < emails.length; i++) {
+    
+}
 
 if (userEmail = emails) {
     console.log('La mail inserita è presente nel database')
