@@ -17,7 +17,7 @@ let emails = ['ginobuonvino@gmail.com', 'pincopallo@hotmail.it', 'gianboolean@li
 let userEmail = prompt('Scrivi qui la tua email:');
 
 for (i = 0; i < emails.length; i++) {
-    
+    console.log(emails[i]);
 }
 
 if (userEmail = emails) {
