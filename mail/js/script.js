@@ -16,12 +16,16 @@ let emails = ['ginobuonvino@gmail.com', 'pincopallo@hotmail.it', 'gianboolean@li
 
 let userEmail = prompt('Scrivi qui la tua email:');
 
-for (i = 0; i < emails.length; i++) {
-    console.log(emails[i]);
+let flag = false
+
+for (let i = 0; i < emails.length; i++) {
+    if (userEmail == emails[i]) {
+        flag = true
+    }
 }
 
-if (userEmail = emails) {
-    console.log('La mail inserita è presente nel database')
+if (flag == true) {
+    console.log(`La mal inserita è presente nel database!`)
 } else {
     console.log('La mail inserita non è presente nel database. Registrati e riprova!')
 }
