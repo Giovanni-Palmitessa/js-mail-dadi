@@ -19,3 +19,11 @@ console.log(`Questo è il numero random dell'utente: ` + userNumber);
 const computerNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
 console.log(`Questo è il numero random del computer: ` + computerNumber);
 
+if (userNumber > computerNumber) {
+    console.log(`L'utente ha vinto! il numero ${userNumber} è maggiore di ${computerNumber}`);
+} else if (computerNumber > userNumber) {
+    console.log(`Il computer ha vinto! il numero ${computerNumber} è maggiore di ${userNumber}`);
+} else {
+    console.log(`Non ha vinto nessuno! Il numero ${userNumber} è uguale al numero ${computerNumber}`);
+}
+
