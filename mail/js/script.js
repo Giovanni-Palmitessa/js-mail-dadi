@@ -21,5 +21,5 @@ let userEmail = prompt('Scrivi qui la tua email:');
 if (userEmail = emails) {
     console.log('La mail inserita è presente nel database')
 } else {
-    console.log('La maill inserita non è presente nel database. Registrati e riprova!')
+    console.log('La mail inserita non è presente nel database. Registrati e riprova!')
 }
