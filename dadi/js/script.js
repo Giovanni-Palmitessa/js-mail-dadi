@@ -13,6 +13,6 @@ ALTRIMENTI STAMPA
 
 */
 
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
-}
+const userNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
+console.log(`Questo è il numero random dell'utente: ` + userNumber);
+
