@@ -16,3 +16,6 @@ ALTRIMENTI STAMPA
 const userNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
 console.log(`Questo è il numero random dell'utente: ` + userNumber);
 
+const computerNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
+console.log(`Questo è il numero random del computer: ` + computerNumber);
+
