@@ -13,3 +13,5 @@ FINE SE
 */
 
 const emails = ['ginobuonvino@gmail.com', 'pincopallo@hotmail.it', 'gianboolean@live.it', 'alexthelion@hotmail.it'];
+
+const userEmail = prompt('Scrivi qui la tua email:');
