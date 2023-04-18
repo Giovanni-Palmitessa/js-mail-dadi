@@ -16,11 +16,14 @@ ALTRIMENTI STAMPA
 const eleBtnPlay = document.querySelector('#btn-play');
 const eleScoreUser = document.querySelector('#score-player');
 const eleScoreComputer = document.querySelector('#score-computer');
+const eleOutput = document.querySelector('.output')
 
 const userNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
+eleScoreUser.innerHTML = userNumber;
 console.log(`Questo è il numero random dell'utente: ` + userNumber);
 
 const computerNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
+eleScoreComputer.innerHTML = computerNumber;
 console.log(`Questo è il numero random del computer: ` + computerNumber);
 
 if (userNumber > computerNumber) {
