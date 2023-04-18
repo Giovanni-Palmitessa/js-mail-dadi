@@ -13,6 +13,10 @@ ALTRIMENTI STAMPA
 
 */
 
+const eleBtnPlay = document.querySelector('#btn-play');
+const eleScoreUser = document.querySelector('#score-player');
+const eleScoreComputer = document.querySelector('#score-computer');
+
 const userNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
 console.log(`Questo è il numero random dell'utente: ` + userNumber);
 
